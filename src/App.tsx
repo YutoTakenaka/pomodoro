@@ -1,14 +1,23 @@
-import React from "react";
 import logo from "./logo.svg";
-import "./App.css";
 import "twin.macro";
+import TimerIndex from "./components/TimerIndex";
+import Timer from "./Timer.jsx";
+import Settings from "./Settings";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-gray-800 h-screen">
       <header className="App-header">
-        <img src={logo} className="App-logo h-48 w-48" alt="logo" />
-        <p className="text-gray-700">This is Pomodoro Timer !</p>
+        <div>
+          {/* <img
+            src={logo}
+            className="App-logo h-48 w-48 flex justify-center"
+            alt="logo"
+          /> */}
+          {/* <TimerIndex /> */}
+          <Settings />
+          <Timer />
+        </div>
       </header>
     </div>
   );
