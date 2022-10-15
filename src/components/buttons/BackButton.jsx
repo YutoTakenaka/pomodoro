@@ -2,13 +2,13 @@ function BackButton(props) {
   return (
     <button
       {...props}
-      className="w-36 h-16 flex justify-center items-center bg-gray-400 rounded-lg py-2 cursor-pointer hover:opacity-80"
+      className="w-32 h-12 flex justify-center items-center bg-gray-200 rounded-lg py-2 cursor-pointer hover:opacity-80"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
-        className="w-12 h-12"
+        className="w-8 h-8 text-[#192f60]"
       >
         <path
           fillRule="evenodd"
@@ -16,7 +16,7 @@ function BackButton(props) {
           clipRule="evenodd"
         />
       </svg>
-      <p className="text-gray-200 ml-2 text-xl">Back</p>
+      <p className="text-[#192f60] ml-2 text-xl">Back</p>
     </button>
   );
 }

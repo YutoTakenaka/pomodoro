@@ -2,7 +2,7 @@ function SettingsButton(props) {
   return (
     <button
       {...props}
-      className="text-gray-200 flex justify-center items-center bg-gray-400 rounded-lg px-4 py-2 cursor-pointer hover:opacity-80"
+      className="text-[#192f60] flex justify-center items-center bg-gray-200 rounded-lg px-4 py-2 cursor-pointer hover:opacity-80"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -16,7 +16,7 @@ function SettingsButton(props) {
           clipRule="evenodd"
         />
       </svg>
-      <p className="text-gray-200 ml-2">Settings</p>
+      <p className="text-[#192f60] ml-2">Settings</p>
     </button>
   );
 }

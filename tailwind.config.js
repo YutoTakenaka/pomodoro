@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      "regal-blue": "#0066cc",
+      "sky-blue": "#42ffff",
+      "back-blue": "#192f60",
+    },
   },
   plugins: [],
 };
